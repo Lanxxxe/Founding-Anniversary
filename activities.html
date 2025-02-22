@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.evsu.edu.ph/wp-content/uploads/2017/08/cropped-favicon-32x32.png" type="image/x-icon">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>EVSU | Founding Anniversary</title>
+
+    <style>
+        /* Ensure the iframe fills its container */
+        .iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 aspect ratio (height/width * 100) */
+            flex: 1 1 30%; /* Flex properties for responsive layout */
+            margin: 8px; /* Add some spacing between iframes */
+            min-width: 300px;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden font-[poppins]">  
+    <nav class="bg-white border-b-2 border-gray-200">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse rounded-md">
+                <img src="./images/evsu-logo.png" class="h-16" alt="Flowbite Logo" />
+                <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap">Eastern Visayas State University</span> -->
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto text-lg" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-800">
+                    <li>
+                        <a href="index.html" class="home block py-2 px-3 hover:text-blue-500 md:text-gray-900 rounded-sm md:bg-transparent md:p-0" >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.evsu.edu.ph/" target="_blank" class="news block py-2 px-3 hover:text-blue-500 text-white md:text-gray-900 rounded-sm md:bg-transparent md:p-0">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="news  underline underline-offset-4 block py-2 px-3 text-white md:text-gray-900 rounded-sm bg-blue-500 md:bg-transparent md:p-0" aria-current="page">
+                            Feeds
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pdf/Group 7 - Reflection Paper.pdf" class="news  block py-2 px-3 hover:text-blue-500 md:text-gray-900 rounded-sm md:bg-transparent md:p-0" target="_blank">
+                            Reflection
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class=" mt-12 py-12">
+        <h1 class="text-center text-slate-800 text-3xl mb-4 font-semibold max-w-2xl mx-auto rounded">News Feeds</h1>
+        <div class="mx-auto mt-12 p-4 flex flex-wrap justify-center">
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid02tJWS7Tdy8uXk4kA9cZiRHNSXiCjk7ZJvq99mzwp1m9CaLaPpWuqm9EXbKULBZmcil&show_text=true&width=500" 
+                    scrolling="yes" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid0ZY7zYtrCSFfFUwryjHd5p84am3kTwoKxaJX1i4YGeJAT2skHLpYDhcsMbTSHbdKDl&show_text=true&width=500" 
+                    scrolling="no" 
+                    frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid0TmwPAjMqdJgPh3Cy1sNikaE7LcAar8s42SWuCg4Z3FRcs6f5LykiUd8coBxsFj8kl&show_text=true&width=500" 
+                    width="500" height="796" style="border:none;overflow:hidden" scrolling="no" 
+                    frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe> 
+            </div>
+            <div class="iframe-container">
+                <<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid02LTKyvJQprRUNhZhSaEwhLR8nMhkhWxp9DdYo5yoYF4KqQhS8okthL4k2DNUdNAsDl&show_text=true&width=500" width="500" height="866" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid02TjyJorsjUsuVQCdrVTCqjX5fvnESS5ewhSLhRFXVcECQTSaHMuavyfVdWH38rmGtl&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            </div>
+            <div class="iframe-container">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Findustrial.wheel%2Fposts%2Fpfbid0K5AmqzyWhhDbW39wFAHMRK2m22HaofGDpAGD8hE25DLR5QY5Nu9vKKkK49ViYLKcl&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            </div>
+    </section>
+
+
+
+    <footer class="p-2 bg-red-500">
+        <p class="text-center text-white">
+            All rights reserve @ Eastern Visayas State University - <a href="https://github.com/Lanxxxe" target="blank">@Lanxxxe</a>
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const button = document.querySelector('[data-collapse-toggle="navbar-default"]');
+            const menu = document.getElementById('navbar-default');
+            const home = document.querySelector('.home');
+            home.classList.add('text-red-500');
+
+            button.addEventListener('click', function () {
+                const expanded = button.getAttribute('aria-expanded') === 'true' || false;
+                button.setAttribute('aria-expanded', !expanded);
+                menu.classList.toggle('hidden');
+            });
+        });
+    </script>
+  
+</body>
+</html>
